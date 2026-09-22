@@ -5,7 +5,7 @@ const AppDetailsSkeleton = () => {
       <section className="flex animate-pulse flex-col gap-6 rounded-xl border border-base-300 bg-base-100 p-6 shadow-sm md:flex-row">
         {/* App Image Skeleton */}
         <div className="flex shrink-0 items-center justify-center">
-          <div className="h-[250px] w-[250px] rounded-2xl bg-base-300" />
+          <div className="h-62.5 w-62.5 rounded-2xl bg-base-300" />
         </div>
 
         {/* App Information */}

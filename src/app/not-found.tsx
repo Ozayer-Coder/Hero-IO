@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaArrowLeft, FaHome } from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
 
 export default function NotFound() {
   return (
@@ -37,7 +37,7 @@ export default function NotFound() {
         {/* Small decoration */}
         <div className="mt-12 flex items-center justify-center gap-2">
           <span className="w-2 h-2 rounded-full bg-primary" />
-          <span className="w-16 h-[2px] bg-base-content/10" />
+          <span className="w-16 h-0.5 bg-base-content/10" />
           <span className="w-2 h-2 rounded-full bg-primary" />
         </div>
       </div>
